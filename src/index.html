@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello Rigo with Vanilla.js</title>
+    <title>Very Believable Excuse Generator</title>
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
@@ -11,18 +11,36 @@
       crossorigin="anonymous"
     />
     <link rel="shortcut icon" href="./4geeks.ico" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Rubik"
+    />
   </head>
   <body>
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+    <div class="container">
+      <div class="heading">
+        <h1>THE 'VERY BELIEVABLE EXCUSE GENERATOR'</h1>
+        <p>
+          is the very best excuse generator out there. These excuses are so
+          detailed, so absurdly specific, that they just have to be real. Right?
+        </p>
+        <h2>Instructions:</h2>
+        <p class="how-it-works">
+          Below in the white box is the excuse that has been generated.
+          Everytime the page loads, the generator will randomly pull from a list
+          of
+          <b>who</b>, <b>how</b>, <b>what</b> and <b>when</b>, and then print
+          the results. If you are not satisfied with the excuse given, you can
+          press the button below it, or reload the page, and you will recieve a
+          brand new excuse to use.
+        </p>
+      </div>
+      <div class="excuse">
+        <h1>Here's Your Excuse:</h1>
+        <p id="excuse-generator"></p>
+      </div>
+      <div class="reload">
+        <a href="">I dont really like this one. Let me roll for another one</a>
       </div>
     </div>
   </body>

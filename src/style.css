@@ -1,1 +1,55 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+/* @import "~bootstrap/dist/css/bootstrap.min.css"; */
+body {
+  background-color: lightsteelblue;
+  font-family: "Rubik", sans-serif;
+}
+
+.container,
+.heading,
+.excuse {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.heading {
+  flex-direction: column;
+  font-size: 1.6em;
+  width: 70%;
+  margin-bottom: 200px;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+h2,
+.reload {
+  margin-top: 100px;
+}
+
+.excuse {
+  background-color: white;
+  width: 50%;
+  font-size: 1.6rem;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.excuse h1 {
+  margin: 0;
+}
+
+.reload a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: steelblue;
+  text-transform: capitalize;
+  font-size: 1.6em;
+  color: white;
+}
+
+.reload a:hover {
+  background-color: dodgerblue;
+}
